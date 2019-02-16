@@ -1,0 +1,9 @@
+pv= nginx-pod-pv    size "1G"
+
+pvc=app-data-claim  size "1G"
+
+kubectl -f create 
+
+kubectl get pv
+
+kubectl get pvc
